@@ -44,7 +44,7 @@ El diseño utiliza fuentes ornamentales, paleta de colores en tonos de pergamino
 
 - [x] El documento inicia con la declaración `DOCTYPE` y usa el atributo `lang="es"`.
 - [x] Se han incluido las metaetiquetas obligatorias: `charset` y `viewport`.
-- [x] Se ha definido un título descriptivo: _"Mi Portafolio Personal"_.
+- [x] Se ha definido un título descriptivo: _"Javiacode | Grimorio Digital"_.
 - [x] Se han vinculado correctamente el archivo CSS (`css/styles.css`) y el enlace a Google Fonts.
 
 **Secciones obligatorias en `<main>`:**
