@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-Este es el Trabajo Práctico N°1 (PFO1) correspondiente a la materia de Desarrollo Web. Se trata de una **Landing Page de Portafolio Personal** construida únicamente con HTML5 y CSS3. El sitio presenta información personal, proyectos, habilidades técnicas, un formulario de contacto y películas favoritas, todo bajo una estética de **fantasía medieval oscura** (_dark fantasy_).
+Este es el Trabajo Práctico N°1 (PFO1) correspondiente a la materia de Desarrollo Web. Se trata de una **Landing Page de Portafolio Personal** construida únicamente con HTML5 y CSS3. El sitio presenta información personal, videojuegos favoritos, habilidades técnicas, un formulario de contacto y películas favoritas, todo bajo una estética de **fantasía medieval oscura** (_dark fantasy_).
 
 El diseño utiliza fuentes ornamentales, paleta de colores en tonos de pergamino quemado y oro antiguo, y animaciones CSS para lograr una experiencia visual memorable y coherente.
 
