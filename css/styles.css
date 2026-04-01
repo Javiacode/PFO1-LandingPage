@@ -467,33 +467,86 @@ body {
   padding-left: 0.5rem;
 }
 
-/* Lista estilo tags/chips para tecnologías */
-.habilidades-lista--tags {
+/* Lista vertical con ícono + nombre */
+.habilidades-lista--iconos {
+  list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  padding: 0;
-  border: none;
+  flex-direction: column;
+  gap: 0;
 }
 
-.habilidades-lista--tags li {
-  border: 1px solid var(--color-borde-dorado);
-  border-bottom: 1px solid var(--color-borde-dorado);
-  background: rgba(139, 105, 20, 0.08);
-  color: var(--color-oro);
-  font-family: var(--fuente-subtitulo);
-  font-size: 0.78rem;
-  letter-spacing: 0.1em;
-  padding: 0.35rem 0.9rem;
-  border-radius: 1px;
-  transition: background var(--transicion), color var(--transicion), transform var(--transicion);
+.habilidades-lista--iconos li {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.65rem 0.5rem;
+  border-bottom: 1px solid rgba(74, 48, 0, 0.35);
+  border-radius: 2px;
+  transition: background var(--transicion), padding-left var(--transicion);
+  cursor: default;
 }
 
-.habilidades-lista--tags li:hover {
-  background: rgba(139, 105, 20, 0.22);
-  color: var(--color-oro-claro);
-  padding-left: 0.9rem;
-  transform: translateY(-2px);
+.habilidades-lista--iconos li:hover {
+  background: rgba(201, 162, 39, 0.05);
+  padding-left: 1rem;
+  color: var(--color-texto-claro);
+}
+
+.tech-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.5));
+  transition: transform var(--transicion);
+}
+
+.habilidades-lista--iconos li:hover .tech-icon {
+  transform: scale(1.15);
+}
+
+/* Prisma tiene ícono blanco/gris, se invierte para que se vea sobre fondo oscuro */
+.tech-icon--invert {
+  filter: invert(0.85) drop-shadow(0 1px 3px rgba(0,0,0,0.5));
+}
+
+/* Lista "por aprender": texto levemente opaco para diferenciarla */
+.habilidades-lista--aprender li {
+  opacity: 0.75;
+}
+
+.habilidades-lista--aprender li:hover {
+  opacity: 1;
+}
+
+/* Hobbies */
+.habilidades-lista--hobbies {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.habilidades-lista--hobbies li {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.65rem 0.5rem;
+  border-bottom: 1px solid rgba(74, 48, 0, 0.35);
+  transition: background var(--transicion), padding-left var(--transicion);
+}
+
+.habilidades-lista--hobbies li:hover {
+  background: rgba(201, 162, 39, 0.05);
+  padding-left: 1rem;
+  color: var(--color-texto-claro);
+}
+
+.hobby-icono {
+  font-size: 1.3rem;
+  width: 1.6rem;
+  text-align: center;
+  flex-shrink: 0;
 }
 
 /* ============================================================
