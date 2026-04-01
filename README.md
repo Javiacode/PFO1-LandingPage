@@ -6,8 +6,7 @@ Este es el Trabajo Práctico N°1 (PFO1) correspondiente a la materia de Desarro
 
 El diseño utiliza fuentes ornamentales, paleta de colores en tonos de pergamino quemado y oro antiguo, y animaciones CSS para lograr una experiencia visual memorable y coherente.
 
-> URL de GitHub Pages: **[https://tu-usuario.github.io/tu-repositorio](https://tu-usuario.github.io/tu-repositorio)**  
-> _(Reemplazá este enlace con el tuyo una vez publicado)_
+> URL de GitHub Pages: **[https://Javiacode.github.io/PFO1-LandingPage/](https://Javiacode.github.io/PFO1-LandingPage/)**
 
 ---
 
