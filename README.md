@@ -93,5 +93,4 @@ El diseño utiliza fuentes ornamentales, paleta de colores en tonos de pergamino
 
 - [x] El diseño es **responsivo**: usa `clamp()`, `flex-wrap`, `min-width` y `@media queries` para adaptarse a mobile, tablet y desktop.
 - [x] Se aplicaron **buenas prácticas de accesibilidad**: atributo `alt` descriptivo en todas las imágenes, `aria-label` en links del footer, `id` en campos del formulario vinculados a sus `<label>`, color con contraste adecuado para el texto principal.
-- [x] Se añadieron comentarios adicionales describiendo decisiones de diseño y posibles mejoras futuras en cada sección.
-      [x] El proyecto fue desarrollado con asistencia de **Claude** (Anthropic) como herramienta de apoyo en la generación y revisión del código HTML, CSS y el contenido del README. Todas las decisiones de diseño, personalización y contenido fueron definidas por el autor.
+- [x] Se añadieron comentarios adicionales describiendo decisiones de diseño y posibles mejoras futuras en cada sección. - [x] El proyecto fue desarrollado con asistencia de **Claude** (Anthropic) como herramienta de apoyo en la generación y revisión del código HTML, CSS y el contenido del README. Todas las decisiones de diseño, personalización y contenido fueron definidas por el autor.
