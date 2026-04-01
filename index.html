@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Fonts: MedievalSharp para títulos y Cinzel Decorative para acento, IM Fell English para cuerpo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ============================================================
+       HEADER: Encabezado principal con el nombre/logo del sitio.
+       Idea de mejora: agregar un logo SVG con emblema heráldico personalizado.
+  ============================================================ -->
+    <header id="header">
+      <div class="header-emblem">✦</div>
+      <h1 class="header-title">Grimorio del Desarrollador</h1>
+      <p class="header-subtitle">
+        Forjador de Interfaces &amp; Arquitecto de Experiencias
+      </p>
+      <div class="header-divider">
+        <span class="divider-line"></span>
+        <span class="divider-icon">⚔</span>
+        <span class="divider-line"></span>
+      </div>
+    </header>
+
+    <!-- ============================================================
+       NAV: Barra de navegación con enlaces a las secciones del sitio.
+       Idea de mejora: convertirla en un menú desplegable tipo pergamino en mobile.
+  ============================================================ -->
+    <nav id="nav-principal">
+      <ul class="nav-list">
+        <li><a href="#sobre-mi" class="nav-link">⚜ Sobre Mí</a></li>
+        <li><a href="#tarjetas" class="nav-link">🗡 Videojuegos</a></li>
+        <li><a href="#habilidades" class="nav-link">📜 Habilidades</a></li>
+        <li><a href="#contacto" class="nav-link">✉ Contacto</a></li>
+        <li><a href="#peliculas" class="nav-link">🎬 Películas</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- ============================================================
+         SECCIÓN SOBRE MÍ: Presentación personal con imagen y descripción.
+         Idea de mejora: animar la entrada con un efecto de desvanecimiento al hacer scroll.
+    ============================================================ -->
+      <section id="sobre-mi" class="seccion">
+        <div class="seccion-header">
+          <h2 class="seccion-titulo">El Pergamino del Aventurero</h2>
+          <span class="seccion-ornamento">— ✦ —</span>
+        </div>
+        <div class="sobre-mi-contenido">
+          <div class="sobre-mi-imagen-wrapper">
+            <img
+              src="img/avatar.png"
+              alt="Avatar del desarrollador, Fane de Divinity Original Sin 2"
+              class="sobre-mi-imagen"
+            />
+            <div class="imagen-marco"></div>
+          </div>
+          <div class="sobre-mi-texto">
+            <p>
+              Hola, soy Marcelo. Mi enfoque del desarrollo de software se basa
+              en un principio simple: aprender para fortalecer a otros. Mi
+              historia comenzó con los fundamentos de la web, pero mi verdadera
+              pasión está en aplicar ese conocimiento para solucionar problemas
+              reales.
+            </p>
+            <p>
+              Mi mentalidad viene de la disciplina del entrenamiento de fuerza.
+              El streetlifting me enseñó que los grandes resultados son la suma
+              de pequeños ajustes técnicos, una filosofía que aplico en cada
+              proyecto que construyo. Mi 'magia' no es otra que la capacidad de
+              analizar un problema de gestión o marketing y transformarlo en una
+              solución digital que facilite la vida del usuario.
+            </p>
+            <p>
+              Actualmente, dedico mi energía a dotar a emprendedores de las
+              herramientas necesarias para dominar el mundo moderno: desde
+              software de gestión a medida hasta tácticas de automatización con
+              IA. Creo que el conocimiento solo tiene valor si se comparte, y mi
+              meta es que este portafolio sea el registro de cómo la tecnología
+              puede ser el catalizador del éxito de quienes me rodean.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         SECCIÓN TARJETAS: Videojuegos favoritos con enlace directo a Steam.
+         Idea de mejora: añadir un sistema de rating interactivo con estrellas en JS.
+    ============================================================ -->
+      <section id="tarjetas" class="seccion">
+        <div class="seccion-header">
+          <h2 class="seccion-titulo">El Bestiario de Juegos</h2>
+          <span class="seccion-ornamento">— ✦ —</span>
+        </div>
+        <div class="tarjetas-grid">
+          <article class="tarjeta">
+            <div class="tarjeta-imagen-wrapper">
+              <img
+                src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/header.jpg"
+                alt="Portada de Divinity: Original Sin 2 - Definitive Edition"
+                class="tarjeta-imagen"
+              />
+              <div class="tarjeta-overlay">
+                <span class="tarjeta-tag"
+                  >RPG · Fantasía · Turno por turno</span
+                >
+              </div>
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3 class="tarjeta-titulo">⚔ Divinity: Original Sin 2</h3>
+              <p class="tarjeta-texto">
+                Una obra maestra del RPG por turnos. Historia branching,
+                construcción de personajes sin límites y un mundo que reacciona
+                a cada decisión. La Definitive Edition incluye todo el contenido
+                adicional y multijugador cooperativo para hasta 4 jugadores.
+              </p>
+              <a
+                href="https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/"
+                class="tarjeta-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                >🎮 Ver en Steam →</a
+              >
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <div class="tarjeta-imagen-wrapper">
+              <img
+                src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133760/header.jpg"
+                alt="Portada de Chrono Cross: The Radical Dreamers Edition"
+                class="tarjeta-imagen"
+              />
+              <div class="tarjeta-overlay">
+                <span class="tarjeta-tag"
+                  >JRPG · Viaje en el tiempo · Clásico</span
+                >
+              </div>
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3 class="tarjeta-titulo">🔮 Chrono Cross: Radical Dreamers</h3>
+              <p class="tarjeta-texto">
+                Joya olvidada de Square con una de las bandas sonoras más bellas
+                de la historia de los videojuegos. 45 personajes reclutables,
+                dos líneas temporales paralelas y una narrativa que desafía el
+                concepto de identidad y destino.
+              </p>
+              <a
+                href="https://store.steampowered.com/app/1133760/CHRONO_CROSS_THE_RADICAL_DREAMERS_EDITION/"
+                class="tarjeta-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                >🎮 Ver en Steam →</a
+              >
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <div class="tarjeta-imagen-wrapper">
+              <img
+                src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/header.jpg"
+                alt="Portada de Slay the Spire 2"
+                class="tarjeta-imagen"
+              />
+              <div class="tarjeta-overlay">
+                <span class="tarjeta-tag"
+                  >Roguelike · Deckbuilding · Estrategia</span
+                >
+              </div>
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3 class="tarjeta-titulo">🃏 Slay the Spire 2</h3>
+              <p class="tarjeta-texto">
+                La secuela del deckbuilder que redefinió el género. Nuevas
+                reliquias, mecánicas de cartas y una torre más profunda que
+                nunca. Cada run es una partida de ajedrez contra el azar donde
+                la teoría del mazo lo es todo.
+              </p>
+              <a
+                href="https://store.steampowered.com/app/2868840/Slay_the_Spire_2/?l=spanish"
+                class="tarjeta-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                >🎮 Ver en Steam →</a
+              >
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <div class="tarjeta-imagen-wrapper">
+              <img
+                src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/header.jpg"
+                alt="Portada de Overwatch 2"
+                class="tarjeta-imagen"
+              />
+              <div class="tarjeta-overlay">
+                <span class="tarjeta-tag">FPS · Héroe · Competitivo</span>
+              </div>
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3 class="tarjeta-titulo">🛡 Overwatch</h3>
+              <p class="tarjeta-texto">
+                El shooter de héroes que conquistó al mundo. Cada personaje es
+                un arquetipo único con mecánicas propias. La profundidad
+                competitiva, el trabajo en equipo y la constante evolución del
+                meta lo convierten en un juego sin fondo.
+              </p>
+              <a
+                href="https://store.steampowered.com/app/2357570/Overwatch/?l=spanish"
+                class="tarjeta-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                >🎮 Ver en Steam →</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECCIÓN HABILIDADES: Hechicería aprendida - tecnologías conocidas, por aprender y hobbies -->
+      <section id="habilidades" class="seccion">
+        <div class="seccion-header">
+          <h2 class="seccion-titulo">La Hechicería Aprendida</h2>
+          <span class="seccion-ornamento">— ✦ —</span>
+        </div>
+        <div class="habilidades-contenido">
+          <div class="habilidades-columna">
+            <h3 class="habilidades-subtitulo">⚔ Conjuros Dominados</h3>
+            <ul class="habilidades-lista habilidades-lista--tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Git / GitHub</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>C#</li>
+              <li>Kotlin</li>
+              <li>Bases de datos SQL</li>
+            </ul>
+          </div>
+          <div class="habilidades-columna">
+            <h3 class="habilidades-subtitulo">🔮 Artes por Descifrar</h3>
+            <ul class="habilidades-lista habilidades-lista--tags">
+              <li>React</li>
+              <li>Node.js &amp; Express</li>
+              <li>MongoDB</li>
+              <li>Prisma</li>
+              <li>Docker</li>
+              <li>Testing automatizado</li>
+              <li>IA en entornos de desarrollo</li>
+            </ul>
+            <h3 class="habilidades-subtitulo" style="margin-top: 2rem">
+              🏹 Pasatiempos del Héroe
+            </h3>
+            <ul class="habilidades-lista">
+              <li>⬡ Gaming &amp; Juegos de Mesa</li>
+              <li>⬡ Marketing Digital &amp; Ventas</li>
+              <li>⬡ Streetlifting &amp; Calistenia</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN CONTACTO: Formulario con campos obligatorios -->
+      <section id="contacto" class="seccion">
+        <div class="seccion-header">
+          <h2 class="seccion-titulo">El Mensajero del Reino</h2>
+          <span class="seccion-ornamento">— ✦ —</span>
+        </div>
+        <p class="contacto-intro">
+          ¿Tienes una misión para mí? Envíame un mensaje a través del pergamino
+          mágico:
+        </p>
+        <form class="formulario-contacto" action="#" method="post">
+          <div class="form-fila">
+            <div class="form-grupo">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                class="form-input"
+                placeholder="Tu nombre..."
+                required
+              />
+            </div>
+            <div class="form-grupo">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input
+                type="text"
+                id="apellido"
+                name="apellido"
+                class="form-input"
+                placeholder="Tu apellido..."
+                required
+              />
+            </div>
+          </div>
+          <div class="form-fila">
+            <div class="form-grupo">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input"
+                placeholder="tu@correo.com"
+                required
+              />
+            </div>
+            <div class="form-grupo">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                class="form-input"
+                placeholder="+54 11 0000-0000"
+              />
+            </div>
+          </div>
+          <button type="submit" class="form-btn">⚔ Enviar el Pergamino</button>
+        </form>
+      </section>
+
+      <!-- SECCIÓN PELÍCULAS: Las tres mejores películas según criterio personal -->
+      <section id="peliculas" class="seccion">
+        <div class="seccion-header">
+          <h2 class="seccion-titulo">Las Leyendas de la Pantalla</h2>
+          <span class="seccion-ornamento">— ✦ —</span>
+        </div>
+        <div class="peliculas-contenedor">
+          <article class="pelicula-card">
+            <div class="pelicula-medalla">I</div>
+            <img
+              src="img/señoranillos.jpg"
+              alt="Afiche de El Señor de los Anillos: La Comunidad del Anillo"
+              class="pelicula-imagen"
+            />
+            <div class="pelicula-info">
+              <h3 class="pelicula-titulo">
+                El Señor de los Anillos: La Comunidad del Anillo
+              </h3>
+              <p class="pelicula-descripcion">
+                Una obra maestra épica que redefinió el cine fantástico. La
+                construcción de la Tierra Media, su música y sus personajes son
+                insuperables. Cada visionado revela nuevos detalles ocultos por
+                Peter Jackson.
+              </p>
+            </div>
+          </article>
+
+          <article class="pelicula-card">
+            <div class="pelicula-medalla">II</div>
+            <img
+              src="img/descenso.jpg"
+              alt="Afiche del Descenso"
+              class="pelicula-imagen"
+            />
+            <div class="pelicula-info">
+              <h3 class="pelicula-titulo">El descenso</h3>
+              <p class="pelicula-descripcion">
+                Seis amigas quedan atrapadas en un sistema de cuevas
+                desconocido. En la profundidad de la tierra, deberán enfrentar
+                no solo la falta de salida y sus propios traumas, sino a una
+                amenaza acechante que habita en las sombras.
+              </p>
+            </div>
+          </article>
+
+          <article class="pelicula-card">
+            <div class="pelicula-medalla">III</div>
+            <img
+              src="img/gladiator.jpg"
+              alt="Afiche de Gladiator"
+              class="pelicula-imagen"
+            />
+            <div class="pelicula-info">
+              <h3 class="pelicula-titulo">Gladiator</h3>
+              <p class="pelicula-descripcion">
+                Traicionado por el heredero al trono y sentenciado a la arena,
+                Maximus Decimus Meridius deberá luchar por su vida y su
+                venganza. Un relato visceral sobre cómo el valor de un solo
+                hombre puede cambiar el destino de Roma.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER: Pie de página con enlaces a redes sociales y créditos -->
+    <footer id="footer">
+      <div class="footer-ornamento">⚔ ✦ ⚔</div>
+      <p class="footer-texto">
+        Forjado con código y determinación en las tierras de La Plata, Argentina
+      </p>
+      <div class="footer-links">
+        <a
+          href="https://github.com/Javiacode"
+          class="footer-link"
+          aria-label="GitHub"
+          >🐙 GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/marcelo-javier-moreno-3608242b3/"
+          class="footer-link"
+          aria-label="LinkedIn"
+          >💼 LinkedIn</a
+        >
+      </div>
+      <p class="footer-copy">
+        © 2026 · Mi Portafolio Personal · Todos los derechos reservados
+      </p>
+    </footer>
+  </body>
+</html>
